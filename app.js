@@ -101,6 +101,14 @@ const anotherCar = {
   model: 'RAV4',
 };
 
+//Duplicating another car & spreading its value into a new array
+const myCar = { ...anotherCar };
+console.log(myCar);
 
+// Changing the make & model properties
+myCar.make = 'Porsche'; //target goals lol for owning this car! lol
+myCar.model = 'Macan';
+console.log('Duplicated object with changed properties: ', myCar);
 
+// ______________________________________________________________
 
