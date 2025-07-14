@@ -227,3 +227,25 @@ False Expression: The value assigned to the variable if the condition is false, 
 
 // ______________________________________________________________
 
+// Boolean Gates - Review Stuff - I just realized that this wasn't part of the exercise after I went through guessing.
+// Guess what the values of the variables will be...
+
+// const result1 = 'bar' && 'foo';
+// will print 'foo' since both are true
+
+// const result2 = false || 243;
+// will print 243 since 243 is the first truthy value (and the false is falsy)
+
+// const result3 = 42 && false;
+// this will print false since false is the first falsy value encountered
+
+// const result4 = myVar || 3000;
+// Since myVar isn't defined, it will be falsy and the first truthy printed will be 3000
+
+// console.log('result1:', result1);
+// console.log('result2:', result2);
+// console.log('result3:', result3);
+// console.log('result4:', result4);
+
+// ______________________________________________________________
+
