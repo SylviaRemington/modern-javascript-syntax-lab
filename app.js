@@ -249,3 +249,47 @@ False Expression: The value assigned to the variable if the condition is false, 
 
 // ______________________________________________________________
 
+//  Exercise 10: Boolean gates
+// ! Exercise 10:
+// ! 10.1: Set language
+// a. Construct a single line of code that assigns a default value using the 
+//    logical OR operator. This line should match the logic of the following 
+//    statement:
+//
+//    "lang is equal to localLangConfig or the default value of English."
+//
+// b. Create a variable called `lang`.
+//
+// c. Assign `lang` the value of localLangConfig or 'en' as a default if 
+//    `localLangConfig is falsy.
+//
+// d. Log the value of `lang` to the console.
+//
+// Your code here (localLangConfig is provided to get you started):
+
+// Simulated language configuration (change this variable to test)
+const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
+
+
+// ______________________________________________________________
+
+// ! 10.2: Set website theme
+// Intro: In this exercise, you'll construct a single line of code that assigns 
+//        a default value to a variable named `theme` using the logical OR 
+//        operator. This line should match the logic of the following statement:
+//
+//        "theme is equal to savedUserTheme or the default value of light."
+//
+// a. Create a variable called `theme`.
+//
+// b. Assign `theme` the value of `savedUserTheme` or 'light' as a default.
+//
+// c. Log the value of `theme` to the console.
+//
+// Your code here (`savedUserTheme` is provided to get you started):
+
+// Simulated user theme preference (change this variable to test)
+const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
+
+
+// ______________________________________________________________
