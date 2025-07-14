@@ -271,13 +271,12 @@ False Expression: The value assigned to the variable if the condition is false, 
  /// Change to 'es', 'fr', etc., or leave it `null`.
 
 
-//"lang is equal to localLangConfig or the default value of English."
 const localLangConfig = null || undefined || '' || NaN || false || 0;
 // just realized I only need one falsy to make this work // Originally thought I needed all the falsys
 
+//"lang is equal to localLangConfig or the default value of English."
 const lang = localLangConfig || 'en';
 console.log(lang);
-
 
 // ______________________________________________________________
 
