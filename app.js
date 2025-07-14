@@ -169,3 +169,16 @@ twoParameters(); //uses the default I initially have
 twoParameters('dog', 'brown'); // creates new info with new parameter info as strings
 
 // ______________________________________________________________
+
+// Exercise 9: The Ternary Operator
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
