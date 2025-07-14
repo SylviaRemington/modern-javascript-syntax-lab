@@ -298,9 +298,11 @@ console.log(lang);
 // Simulated user theme preference (change this variable to test)
 // const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
 
+const savedUserTheme = null;
 
 // "theme is equal to savedUserTheme or the default value of light."
-const theme = savedUserTheme || 'the default value of light';
+const theme = savedUserTheme || 'light';
+console.log(theme);
 
 // ______________________________________________________________
 
