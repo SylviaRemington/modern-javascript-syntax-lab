@@ -117,3 +117,29 @@ console.log(myCar);
 
 // ______________________________________________________________
 
+// Exercise 6: Dynamic keys in objects
+/*
+Variables and expressions can be used as dynamic keys in an object by using bracket notation. Dynamic keys can be used to create, access, and modify properties in an object. Dynamic keys enhance our ability to access data.
+This approach is handy in scenarios where key names are not known ahead of time or when they need to be computed on the fly. It also allows for more concise and readable code, avoiding the need for additional steps when assigning properties to objects.
+*/
+// a. Define a variable named `propertyName` and assign a string (like 
+//    'username', 'age', or 'email') to it.
+// 
+// b. Create an object named `userProfile`. 
+// 
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+
+const propertyName = 'username';
+
+const userProfile = {
+    [propertyName]: 'Sylvia Remington',
+};
+
+console.log(userProfile);
+
+// ______________________________________________________________
+
+
