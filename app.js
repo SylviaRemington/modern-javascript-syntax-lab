@@ -271,6 +271,14 @@ False Expression: The value assigned to the variable if the condition is false, 
  /// Change to 'es', 'fr', etc., or leave it `null`.
 
 
+//"lang is equal to localLangConfig or the default value of English."
+const localLangConfig = null || undefined || '' || NaN || false || 0;
+// just realized I only need one falsy to make this work // Originally thought I needed all the falsys
+
+const lang = localLangConfig || 'en';
+console.log(lang);
+
+
 // ______________________________________________________________
 
 // ! 10.2: Set website theme
@@ -290,6 +298,7 @@ False Expression: The value assigned to the variable if the condition is false, 
 
 // Simulated user theme preference (change this variable to test)
 // const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
+
 
 
 // ______________________________________________________________
