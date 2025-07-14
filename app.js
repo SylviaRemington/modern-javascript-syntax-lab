@@ -104,7 +104,7 @@ const myCar = { ...anotherCar };
 console.log(myCar);
 
 // Changing the make & model properties
-myCar.make = 'Porsche'; //target goals lol for owning this car! lol
+myCar.make = 'Porsche'; //target & life goals for owning this car! lol
 myCar.model = 'Macan';
 console.log('Duplicated object with changed properties: ', myCar);
 
@@ -139,7 +139,8 @@ const userProfile = {
 };
 
 console.log(userProfile);
+// Prints out in terminal: { username: 'Sylvia Remington' }
 
 // ______________________________________________________________
 
-
+// Exercise 7: Import and Export
