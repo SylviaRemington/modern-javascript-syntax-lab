@@ -299,6 +299,8 @@ console.log(lang);
 // const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
 
 
+// "theme is equal to savedUserTheme or the default value of light."
+const theme = savedUserTheme || 'the default value of light';
 
 // ______________________________________________________________
 
