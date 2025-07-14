@@ -161,3 +161,11 @@ to the exporting and importing js files, and then testing it out via console.log
 // c. The function should log a sentence 'The cat is orange.' by default, but 
 //    should substitute the appropriate parameters when it is supplied with 
 //    arguments.
+
+function twoParameters(noun = 'cat', adjective = 'orange') {
+    console.log(`The ${noun} is ${adjective}.`);
+};
+twoParameters(); //uses the default I initially have
+twoParameters('dog', 'brown'); // creates new info with new parameter info as strings
+
+// ______________________________________________________________
