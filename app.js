@@ -178,7 +178,10 @@ twoParameters('dog', 'brown'); // creates new info with new parameter info as st
 //    } else {
 //      console.log('yuck');
 //    }
-//
-// Starting code (don't modify this):
 
 const pizza = 'tasty';
+
+let tastiness = pizza === 'tasty' ? 'yum' : 'yuck';
+console.log(tastiness);
+
+// ______________________________________________________________
