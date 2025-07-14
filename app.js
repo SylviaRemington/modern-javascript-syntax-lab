@@ -144,3 +144,11 @@ console.log(userProfile);
 // ______________________________________________________________
 
 // Exercise 7: Import and Export
+/* This exercise was completed by initializing node project in terminal,
+adding a new line to json package, creating two new exporting and importing files,
+adding exporting and importing code to appropriate files, adding addtl values
+to the exporting and importing js files, and then testing it out via console.log.
+*/
+
+// ______________________________________________________________
+
