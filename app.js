@@ -93,8 +93,6 @@ console.log(uncontroversialPizzaToppings);
 //    values.
 //
 // c. Console log both objects and observe the results.
-//
-// Starting code (don't modify this):
 
 const anotherCar = {
   make: 'Toyota',
@@ -109,6 +107,13 @@ console.log(myCar);
 myCar.make = 'Porsche'; //target goals lol for owning this car! lol
 myCar.model = 'Macan';
 console.log('Duplicated object with changed properties: ', myCar);
+
+// For clarity and answering 5c.
+// Original Version 
+console.log(anotherCar);
+
+// Duplicated Spread Version with Changed Properties
+console.log(myCar);
 
 // ______________________________________________________________
 
