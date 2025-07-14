@@ -22,6 +22,10 @@ console.log(numsTimesTwo);
 // ______________________________________________________________
 
 // Exercise 2 - Array destructuring
+/*
+Array destructuring in JavaScript is a way of unpacking the elements of an array. With array destructuring, we can extract elements from an array and store them in variables with a single line of code.
+When we destructure an array, the elements are matched positionally with the variables we define, meaning the order in which we declare variables corresponds with the order of elements in the array.
+*/
 // a. Given the provided `pizzaToppings` array, use destructuring to extract 
 //    the first and second values and place them into variables. Name the 
 //    variable that corresponds to the first value `firstIngredient`. Name the 
@@ -43,13 +47,27 @@ console.log(secondIngredient);
 
 // ______________________________________________________________
 
+// Exercise 3 - Object Destructuring / Destructuring objects lesson
+/*
+Destructuring can also be applied to objects. With object destructuring, we can extract properties from an object. Instead of accessing properties through dot or bracket notation, the values of specific properties in an object can be assigned to variables.
+*/
+// a. Given the provided `car` object, use destructuring to create two
+//    variables: `make` and `model` that will hold the respective values.
+//
+// b. Console log the `make` and `model` variables.
 
+const car = {
+  make: 'Audi',
+  model: 'Q5',
+};
 
+//Object destructuring:
+const {make, model} = car;
 
-
-
-
-
+console.log(make);
+//Prints out in terminal: Audi
+console.log(model);
+//Prints out in terminal: Q5
 
 // ______________________________________________________________
 
