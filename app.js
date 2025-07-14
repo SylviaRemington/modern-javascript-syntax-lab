@@ -268,7 +268,7 @@ False Expression: The value assigned to the variable if the condition is false, 
 // Your code here (localLangConfig is provided to get you started):
 
 // Simulated language configuration (change this variable to test)
-const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
+ /// Change to 'es', 'fr', etc., or leave it `null`.
 
 
 // ______________________________________________________________
@@ -289,7 +289,26 @@ const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
 // Your code here (`savedUserTheme` is provided to get you started):
 
 // Simulated user theme preference (change this variable to test)
-const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
+// const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
 
+
+// ______________________________________________________________
+
+// Exercise 11: Optional Chaining
+// a. Use optional chaining in a console.log so that a console log of
+//    `adventurer.cat.age` returns `undefined` instead of an error.
+
+const adventurer = {
+  name: 'Alice',
+};
+
+let cat = adventurer.cat?.age;
+console.log(cat);
+
+// Could also do the following:
+// let cat = adventurer.cat?.name;
+// console.log(cat);
+// or
+// console.log(adventurer.cat?.age);
 
 // ______________________________________________________________
