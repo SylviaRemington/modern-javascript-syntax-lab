@@ -184,4 +184,34 @@ const pizza = 'tasty';
 let tastiness = pizza === 'tasty' ? 'yum' : 'yuck';
 console.log(tastiness);
 
+// What I did above is classic ternary using the format that the assignment showed.
+// It's readable and stores result in a variable for reuse.
+
+// Addtl versions could use as well:
+// Direct Console Log with no variable version:
+// console.log(pizza === 'tasty' ? 'yum' : 'yuck');
+
+// Ternary Operator with separate logs:
+// pizza === 'tasty' ? console.log('yum') : console.log('yuck');
+
+// Or the following addtl versions that I looked up online for other ways to write this code for better reuse and possibly for use with other conditions:
+/*
+Using A Function Version:
+const pizza = 'tasty';
+const tasteOfPizza = (p) => console.log(p === 'tasty' ? 'yum' : 'yuck');
+judgePizza(pizza); 
+
+Another Function Version:
+const pizza = 'tasty';
+const findOutTastiness = (p) => p === 'tasty' ? 'yum' : 'yuck';
+console.log(findOutTastiness(pizza));
+
+Object Lookup which is an alternative to ternary (research this one more):
+const pizza = 'tasty';
+const reactions = { tasty: 'yum', default: 'yuck' };
+console.log(reactions[pizza] || reactions.default);
+(according to online sources, this one above is supposed to me scaleable for many conditions.)
+*/
+
+
 // ______________________________________________________________
