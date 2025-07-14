@@ -21,6 +21,27 @@ console.log(numsTimesTwo);
 
 // ______________________________________________________________
 
+// Exercise 2 - Array destructuring
+// a. Given the provided `pizzaToppings` array, use destructuring to extract 
+//    the first and second values and place them into variables. Name the 
+//    variable that corresponds to the first value `firstIngredient`. Name the 
+//    variable that corresponds to the second value `secondIngredient`.
+//
+// b. Console log the `firstIngredient` and `secondIngredient` variables.
+//
+// Starting code (don't modify this):
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+const [firstIngredient, secondIngredient] = pizzaToppings;
+
+console.log(firstIngredient);
+// Prints: 'Pineapple' after node app.js in terminal
+console.log(secondIngredient);
+// Prints: 'Olives'
+
+// ______________________________________________________________
 
 
 
