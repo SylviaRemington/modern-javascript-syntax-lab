@@ -13,6 +13,8 @@
 ## Lab structure
 Each Review section will briefly explain of a modern JavaScript concept, followed by an exercise to complete.
 
+<br>
+
 ## The map() iterator method of arrays
 - An array’s map() method returns a new array with the results of calling a function on every element in an existing array.
 
