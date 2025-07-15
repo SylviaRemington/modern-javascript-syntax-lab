@@ -48,7 +48,7 @@ Each Review section will briefly explain of a modern JavaScript concept, followe
 
 - This approach is handy in scenarios where key names are not known ahead of time or when they need to be computed on the fly. It also allows for more concise and readable code, avoiding the need for additional steps when assigning properties to objects.
 
-## import and export
+## Import and Export
 - The import and export syntax allows us to share code between different files in JavaScript. This is a more modern and native approach compared to the require and module.exports syntax used in CommonJS.
 
 - With export, you can make functions, objects, or primitives available for use in other files.
@@ -69,11 +69,11 @@ Each Review section will briefly explain of a modern JavaScript concept, followe
 - Named exports are often preferred over default exports.
 
 
-## Default parameters
+## Default Parameters
 - Default parameters are just that - default values for parameters. These defaults are applied when no value is passed for those parameters during a function call.
 
 
-## The ternary operator
+## The Ternary Operator
 - The ternary operator gives us a way to handle conditional logic in a single line of code. Ternaries can be viewed as a more concise version of an if...else statement. It can also simplify assigning a value to a variable based on a condition.
 
 ### A ternary consists of three parts:
@@ -83,7 +83,7 @@ Each Review section will briefly explain of a modern JavaScript concept, followe
 - False Expression: The value assigned to the variable if the condition is false, following the :.
 
 
-## Boolean gates
+## Boolean Gates / Logical Operators of && and ||
 - Logical operators such as && (AND) and || (OR) play an interesting role when used outside of if...else statements. In this context, they can be used to evaluate and return values directly based on the truthiness or falsyness of the values involved.
 
 ### The && operator
@@ -96,9 +96,9 @@ Each Review section will briefly explain of a modern JavaScript concept, followe
 
 - The || operator evaluates expressions from left to right and returns the first truthy value it encounters. If all values are falsy, it returns the last value.
 
-### Addtl Boolean gates info:
+### Addtl boolean gates info:
 - In modern JavaScript, a common pattern is to assign a default value to variables if no specific value is provided. This technique is instrumental in settings where configurations might be optional. For example, users might not set their language or theme preferences on a website, and you’d want to fall back to some default settings.
 
 
-## Optional chaining
+## Optional Chaining
 - Optional chaining is a way to access deeply nested properties in an object safely. This approach helps us avoid errors when we attempt to access undefined or null properties.
