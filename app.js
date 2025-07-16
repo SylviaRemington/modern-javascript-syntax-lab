@@ -1,3 +1,5 @@
+// MODERN JAVASCRIPT SYNTAX LAB - first lab for Module 3 - completed 7/14/2025
+
 // Exercise 1 - Applying map()
 // Assignment info is as follows:
 // a. Use the `map()` method to iterate over the provided `nums` array
